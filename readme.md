@@ -11,3 +11,7 @@
 se aquilo não funcionar tente isso:
 
 ``` python -m streamlit run main.py ```
+
+# Se ainda não executar
+
+Exclua a pasta n2venv, crie uma nova venv, e reinstale as dependencias. Após isto, execute.
