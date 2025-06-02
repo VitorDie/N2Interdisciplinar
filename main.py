@@ -359,7 +359,7 @@ if uploaded_file is not None:
         
         # Configurações da simulação
         st.subheader("⚙️ Configurações")
-        num_servers = st.slider("Número de servidores (c):", 1, 10, 2)
+        num_servers = st.slider("Número de servidores (c):", 1, 1000, 2)
         
         if st.button("🚀 Executar Simulação", type="primary"):
             
